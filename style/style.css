@@ -24,8 +24,9 @@
     --fonte-android: 'Android', cursive;}
 
 
-body {background-color: var(--cor0);
-font-family: var(--font-padrao);}
+html,body {background-color: var(--cor0);
+font-family: var(--font-padrao);
+min-height: 100vh;}
 
 
 
@@ -132,7 +133,9 @@ aside > h3 {color: white;
           border-radius:10px 10px 0px 0px;}
 
 aside > ul {list-style: inside;
-            columns: 2;}
+            columns: 2;
+           font-size: 2.5vw;
+           font-weight:400;}
 
 
 footer {background-color: var(--cor5);
